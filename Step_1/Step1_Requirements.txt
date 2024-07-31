@@ -1,0 +1,8 @@
+Users can search the course by instructor
+Users can filter the course by product
+Users can sort the course by duration
+Users can sort the course by rating_average
+Users can sort the course by rating_count
+Users can search the course by title
+Users can view the course with URL
+Users can facit the course by role
