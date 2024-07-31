@@ -1,0 +1,451 @@
+### Q1 search: Gerald ###
+{
+  "@odata.context": "https://uda-cognitive-search-sv.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 5.7713623,
+      "PartitionKey": "company-moodle",
+      "RowKey": "17b1eedc-0e96-4e5b-8199-83a484388efe",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.2642871Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.264Z",
+      "Key": "company-moodle17b1eedc-0e96-4e5b-8199-83a484388efe",
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "duration": "2",
+      "instructor": "Gerald Dominguez",
+      "rating_average": 4.6,
+      "rating_count": 510,
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course10",
+      "keyphrases": [],
+      "product": "System.Byte[]",
+      "title": "System.Byte[]",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Gerald Dominguez",
+          "description": "Gerald is a Junior IT Administrator and has been with the company for 1 year. Gerald played NCAA soccer and is a part-time soccer coach on weekends. "
+        }
+      ]
+    },
+    {
+      "@search.score": 5.7713623,
+      "PartitionKey": "company-moodle",
+      "RowKey": "c014cf36-2a83-4ded-bfe5-d62f405ba970",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.2642871Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.264Z",
+      "Key": "company-moodlec014cf36-2a83-4ded-bfe5-d62f405ba970",
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "duration": "1",
+      "instructor": "Gerald Dominguez",
+      "rating_average": 4.7,
+      "rating_count": 325,
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course11",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Remote work",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Gerald Dominguez",
+          "description": "Gerald is a Junior IT Administrator and has been with the company for 1 year. Gerald played NCAA soccer and is a part-time soccer coach on weekends. "
+        }
+      ]
+    }
+  ]
+}
+
+### Q2 search: Claudia Blackman ###
+{
+  "@odata.context": "https://uda-cognitive-search-sv.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "578a3319-aa7c-4d2f-b6a4-39e9638b0a85",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.262296Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.262Z",
+      "Key": "company-moodle578a3319-aa7c-4d2f-b6a4-39e9638b0a85",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "duration": "5",
+      "instructor": "Claudia Blackman",
+      "rating_average": 4.9,
+      "rating_count": 56,
+      "role": "admin",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course5",
+      "keyphrases": [],
+      "product": "jenkins",
+      "title": "DevOps for Ops",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    },
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "9700e1dc-b293-4306-9e1b-0d345863db54",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.262296Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.262Z",
+      "Key": "company-moodle9700e1dc-b293-4306-9e1b-0d345863db54",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "duration": "3",
+      "instructor": "Claudia Blackman",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "role": "developer",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course3",
+      "keyphrases": [],
+      "product": "git",
+      "title": "Git Workflow",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    },
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "b51ede14-025f-49ad-9e9e-44ad284eedda",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.262296Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.262Z",
+      "Key": "company-moodleb51ede14-025f-49ad-9e9e-44ad284eedda",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": "3",
+      "instructor": "Claudia Blackman",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course4",
+      "keyphrases": [
+        "44ad284eedda"
+      ],
+      "product": "jenkins",
+      "title": "DevOps for Dev",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    }
+  ]
+}
+
+### Q3 search=Mike+Montoya ###
+{
+  "@odata.context": "https://uda-cognitive-search-sv.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "30e3c6e5-9415-4d85-8229-c2133203c535",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.2612999Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.261Z",
+      "Key": "company-moodle30e3c6e5-9415-4d85-8229-c2133203c535",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "duration": "1",
+      "instructor": "Mike Montoya",
+      "rating_average": 4.9,
+      "rating_count": 550,
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course2",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Onboarding - Technology Policies",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    },
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "5b293283-81e6-4f89-a0ab-7053988d6f6a",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.2612999Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.261Z",
+      "Key": "company-moodle5b293283-81e6-4f89-a0ab-7053988d6f6a",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "duration": "1",
+      "instructor": "Mike Montoya",
+      "rating_average": 4.8,
+      "rating_count": 540,
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course1",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Onboarding - Time Tracking",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    },
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "c6b7fbd0-7390-4370-ab77-45027596b520",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.265284Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.265Z",
+      "Key": "company-moodlec6b7fbd0-7390-4370-ab77-45027596b520",
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "duration": "1",
+      "instructor": "Mike Montoya",
+      "rating_average": 4.6,
+      "rating_count": 525,
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course13",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Workplace Health",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    }
+  ]
+}
+
+### Q4 search: Eileen Diaz ###
+{
+  "@odata.context": "https://uda-cognitive-search-sv.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.2632915Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.263Z",
+      "Key": "company-moodle278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": "2",
+      "instructor": "Eileen Diaz",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course7",
+      "keyphrases": [],
+      "product": "SQL",
+      "title": "Security for database code",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.265284Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.265Z",
+      "Key": "company-moodle6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": "1",
+      "instructor": "Eileen Diaz",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course12",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Ethics in AI",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "85ee725b-4ae0-4719-8785-ddf99e19faf1",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.2632915Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.263Z",
+      "Key": "company-moodle85ee725b-4ae0-4719-8785-ddf99e19faf1",
+      "description": "For administrators, learn our best practices for securing all databases",
+      "duration": "3",
+      "instructor": "Eileen Diaz",
+      "rating_average": 4.3,
+      "rating_count": 45,
+      "role": "admin",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course8",
+      "keyphrases": [],
+      "product": "SQL",
+      "title": "Security for database admins",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "9df844fd-eefe-4880-8341-936732174bb5",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.265284Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.265Z",
+      "Key": "company-moodle9df844fd-eefe-4880-8341-936732174bb5",
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "duration": "3",
+      "instructor": "Eileen Diaz",
+      "rating_average": 4.2,
+      "rating_count": 95,
+      "role": "architect",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course14",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Encryption and security",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 4.509354,
+      "PartitionKey": "company-moodle",
+      "RowKey": "d3f0c955-ac6e-4ced-b91b-ffcef3e8cede",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.2632915Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.263Z",
+      "Key": "company-moodled3f0c955-ac6e-4ced-b91b-ffcef3e8cede",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": "3",
+      "instructor": "Eileen Diaz",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course9",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Code security",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    }
+  ]
+}
+### Q5 search: Mike Montoya ###
+{
+  "@odata.context": "https://uda-cognitive-search-sv.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "30e3c6e5-9415-4d85-8229-c2133203c535",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.2612999Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.261Z",
+      "Key": "company-moodle30e3c6e5-9415-4d85-8229-c2133203c535",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "duration": "1",
+      "instructor": "Mike Montoya",
+      "rating_average": 4.9,
+      "rating_count": 550,
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course2",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Onboarding - Technology Policies",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    },
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "5b293283-81e6-4f89-a0ab-7053988d6f6a",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.2612999Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.261Z",
+      "Key": "company-moodle5b293283-81e6-4f89-a0ab-7053988d6f6a",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "duration": "1",
+      "instructor": "Mike Montoya",
+      "rating_average": 4.8,
+      "rating_count": 540,
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course1",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Onboarding - Time Tracking",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    },
+    {
+      "@search.score": 7.090105,
+      "PartitionKey": "company-moodle",
+      "RowKey": "c6b7fbd0-7390-4370-ab77-45027596b520",
+      "ETag": "W/\"datetime'2024-07-30T00%3A22%3A51.265284Z'\"",
+      "Timestamp": "2024-07-30T00:22:51.265Z",
+      "Key": "company-moodlec6b7fbd0-7390-4370-ab77-45027596b520",
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "duration": "1",
+      "instructor": "Mike Montoya",
+      "rating_average": 4.6,
+      "rating_count": 525,
+      "role": "all",
+      "source": "Company Moodle",
+      "url": "https://www.example.com/course13",
+      "keyphrases": [],
+      "product": "NA",
+      "title": "Workplace Health",
+      "level": "System.Byte[]",
+      "outputEntities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    }
+  ]
+}

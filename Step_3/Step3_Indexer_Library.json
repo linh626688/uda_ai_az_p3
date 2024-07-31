@@ -1,0 +1,51 @@
+{
+  "@odata.context": "https://uda-cognitive-search-sv.search.windows.net/$metadata#indexers/$entity",
+  "@odata.etag": "\"0x8DCB06A20CAEE9F\"",
+  "name": "azure-blob-indexer",
+  "description": "",
+  "dataSourceName": "src-blob-papers",
+  "skillsetName": null,
+  "targetIndexName": "azureblob-index",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": 0,
+    "maxFailedItemsPerBatch": 0,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "default"
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "metadata_storage_path",
+      "targetFieldName": "metadata_storage_path",
+      "mappingFunction": {
+        "name": "base64Encode",
+        "parameters": null
+      }
+    }
+  ],
+  "outputFieldMappings": [
+    {
+      "sourceFieldName": "/document/publicationname",
+      "targetFieldName": "publicationName"
+    },
+    {
+      "sourceFieldName": "/document/publisher",
+      "targetFieldName": "publisher"
+    },
+    {
+      "sourceFieldName": "/document/doi",
+      "targetFieldName": "doi"
+    },
+    {
+      "sourceFieldName": "/document/publicationdate",
+      "targetFieldName": "publicationDate"
+    }
+  ],
+  "cache": null,
+  "encryptionKey": null
+}

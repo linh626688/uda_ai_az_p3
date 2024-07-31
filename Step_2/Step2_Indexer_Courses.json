@@ -1,0 +1,27 @@
+{
+  "@odata.context": "https://uda-cognitive-search-sv.search.windows.net/$metadata#indexers/$entity",
+  "@odata.etag": "\"0x8DCB05489BF5F9C\"",
+  "name": "az-courses-indexer",
+  "description": "",
+  "dataSourceName": "src-table-course",
+  "skillsetName": "azuretable-skillset",
+  "targetIndexName": "azuretable-index",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": 0,
+    "maxFailedItemsPerBatch": 0,
+    "base64EncodeKeys": false,
+    "configuration": {}
+  },
+  "fieldMappings": [],
+  "outputFieldMappings": [
+    {
+      "sourceFieldName": "/document/RowKey/keyphrases",
+      "targetFieldName": "keyphrases"
+    }
+  ],
+  "cache": null,
+  "encryptionKey": null
+}

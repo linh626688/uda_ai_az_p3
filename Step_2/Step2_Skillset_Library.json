@@ -1,0 +1,37 @@
+{
+  "@odata.context": "https://uda-cognitive-search-sv.search.windows.net/$metadata#skillsets/$entity",
+  "@odata.etag": "\"0x8DCB05860670ED7\"",
+  "name": "az-courses-skillset",
+  "description": "Skillset created from the portal. skillsetName: az-courses-skillset; contentField: content; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+  "skills": [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+      "name": "#1",
+      "description": null,
+      "context": "/document/content",
+      "defaultLanguageCode": "en",
+      "maxKeyPhraseCount": null,
+      "modelVersion": null,
+      "inputs": [
+        {
+          "name": "text",
+          "source": "/document/content"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keyPhrases",
+          "targetName": "keyphrases"
+        }
+      ]
+    }
+  ],
+  "cognitiveServices": {
+    "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+    "description": "/subscriptions/458cd769-101d-4c65-9cd3-f60bee6061c5/resourceGroups/aind-265311/providers/Microsoft.CognitiveServices/accounts/uda-az-ai-sv",
+    "key": null
+  },
+  "knowledgeStore": null,
+  "indexProjections": null,
+  "encryptionKey": null
+}

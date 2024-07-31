@@ -1,0 +1,75 @@
+{
+  "@odata.context": "https://uda-cognitive-search-sv.search.windows.net/$metadata#skillsets/$entity",
+  "@odata.etag": "\"0x8DCB062941FE4A6\"",
+  "name": "az-courses-skillset",
+  "description": "Skillset created from the portal. skillsetName: az-courses-skillset; contentField: content; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+  "skills": [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+      "name": "#1",
+      "description": null,
+      "context": "/document/content",
+      "defaultLanguageCode": "en",
+      "maxKeyPhraseCount": null,
+      "modelVersion": null,
+      "inputs": [
+        {
+          "name": "text",
+          "source": "/document/content"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keyPhrases",
+          "targetName": "keyphrases"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+      "name": "SpringerLookupSkill",
+      "description": "Enriches the dataset with information obtained from the Springer API.",
+      "context": "/document/ArticleName",
+      "uri": "https://springernatureapi.azurewebsites.net/api/springerlookup?code=f9ec99b3ebb93fc7ee8961b0c2067d69",
+      "httpMethod": "POST",
+      "timeout": "PT30S",
+      "batchSize": 1,
+      "degreeOfParallelism": 1,
+      "authResourceId": null,
+      "inputs": [
+        {
+          "name": "ArticleName",
+          "source": "/document/ArticleName"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "PublicationName",
+          "targetName": "publication_name"
+        },
+        {
+          "name": "Publisher",
+          "targetName": "publisher"
+        },
+        {
+          "name": "DOI",
+          "targetName": "doi"
+        },
+        {
+          "name": "PublicationDate",
+          "targetName": "publication_date"
+        }
+      ],
+      "httpHeaders": {},
+      "authIdentity": null
+    }
+  ],
+  "cognitiveServices": {
+    "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+    "description": "/subscriptions/458cd769-101d-4c65-9cd3-f60bee6061c5/resourceGroups/aind-265311/providers/Microsoft.CognitiveServices/accounts/uda-az-ai-sv",
+    "key": null
+  },
+  "knowledgeStore": null,
+  "indexProjections": null,
+  "encryptionKey": null
+}
