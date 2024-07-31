@@ -98,9 +98,10 @@
         api-key is the key is found under 'Keys'
         serviceUrl is found in the Overview
     */
-    const apiKey = '<%= apiKey %>'; // Assuming you're using a templating engine
 
-
+    const opts = {
+        headers: {'Content-Type': 'application/json', 'api-key':'AZURE KEY'}
+    }
     // const serviceUrl = 'https://<insert service name here>.search.windows.net'
     const serviceUrl = 'https://uda-ai-sv-search.search.windows.net'
     
@@ -117,11 +118,7 @@
                 searchTerm: 'azure',
                 rating_average: 0,
                 availableFacets: [],
-                myfacets: [],
-                opts: {
-                    headers: {'Content-Type': 'application/json', 'api-key': process.env.AZURE_SEARCH_KEY }
-                }
-
+                myfacets: []
             }
         },
         /*
@@ -135,7 +132,7 @@
         methods: {
             doSearch: function(event){
                 axios
-                    .get(`${this.baseUrl}&search=${encodeURIComponent(this.searchTerm)}&${this.filter}&facet=level`, this.opts)
+                    .get(`${this.baseUrl}&search=${encodeURIComponent(this.searchTerm)}&${this.filter}&facet=level`, opts)
                     .then(response => {
                         this.results = response.data.value; 
                         this.availableFacets = response.data['@search.facets'].level;
@@ -144,7 +141,7 @@
             doRefresh: function(event){
                 axios
                     .get(`${this.baseUrl}&search=${encodeURIComponent(this.searchTerm)}&${this.filter}`,
-                        this.opts)
+                        opts)
                     .then(response => {
                         this.results = response.data.value; 
                     })
